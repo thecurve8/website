@@ -142,7 +142,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Alexander, a Data Science Master student from <a href="https://www.epfl.ch/en/">EPFL</a> based in Switzerland with the generous support of the <a href="https://www.epfl.ch/education/studies/en/financing-study/grants/excellence-fellowships/">
+              Hello! I'm Alexander, a Data Science Master student from <a href="https://www.epfl.ch/en/">EPFL</a> sbased in Switzerland with the generous support of the <a href="https://www.epfl.ch/education/studies/en/financing-study/grants/excellence-fellowships/">
                 EPFL Excellence Fellowship</a>.
             </p>
 
