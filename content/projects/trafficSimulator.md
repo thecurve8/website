@@ -1,6 +1,6 @@
 ---
 date: '2019-04-01'
-title: 'Traffic sign classifier'
+title: 'Internet traffic simulator'
 github: ''
 external: ''
 tech:
