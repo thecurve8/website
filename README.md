@@ -24,6 +24,11 @@
 
 Credits to [brittanychiang.com](https://brittanychiang.com), for her website that was used as template, you can look at her <a href="https://github.com/bchiang7/v4" target="_blank">github repo</a>.
 
+## 🌐 Netlify
+Netlify hosts the website and detecets any changes to this github repo, any time a change is detected is rebuilds the website.
+You can see the status of netlify on the status badge above.
+For documentation on Netlify, go to their [doc page](https://docs.netlify.com/).
+
 ## 🛠 Installation & Set Up
 
 1. Install the Gatsby CLI
