@@ -29,30 +29,37 @@ Netlify hosts the website and detecets any changes to this github repo, any time
 You can see the status of netlify on the status badge above.
 For documentation on Netlify, go to their [doc page](https://docs.netlify.com/).
 
-## 🛠 Installation & Set Up
+## Gatsby
+Gatsby is a React-based open-source framework for creating websites and apps.
+For documentations on Gatsby, refer to [their documentation](https://www.gatsbyjs.com/docs/).
 
-1. Install the Gatsby CLI
+### What it uses under the hood
+1. **Node.js** is an environment that can run JavaScript code outside of a web browser. Gatsby is built with Node.js. To get up and running with Gatsby, you’ll need to have Node.js version 14.15 (or newer) installed on your computer.
+2. **npm** is a package manager that comes bundled with Node.js. You’ll use the npm command line interface to add packages to your site (like Gatsby plugins) and to run command line tasks (like starting up your site).
+3. The **Gatsby command line interface (CLI)** is a tool that lets you quickly create new Gatsby-powered sites and run commands for developing Gatsby sites.
+
+## 🛠 Installation & Set Up
+1. Install Node.js
+    Download and install the latest Node.js version from the official [Node.js website](https://nodejs.org/en/)
+2. Install the Gatsby CLI
 
    ```sh
    npm install -g gatsby-cli
    ```
 
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+## Developping the website
+1. cd in the website directory
+ 
+2. Start the development server
 
    ```sh
-   nvm install
+   gatsby develop
    ```
-
-3. Install dependencies
-
+   
+   or 
+   
    ```sh
-   yarn
-   ```
-
-4. Start the development server
-
-   ```sh
-   npm start
+   npm run develop
    ```
 
 ## 🚀 Building and Running for Production
