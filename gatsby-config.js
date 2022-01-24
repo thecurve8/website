@@ -1,6 +1,8 @@
 const config = require('./src/config');
 
 module.exports = {
+
+  //common pieces of data that can be reused across the website
   siteMetadata: {
     title: 'Alexander Apostolov',
     description:
@@ -9,6 +11,8 @@ module.exports = {
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@Alex_Apostolov_',
   },
+
+
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
@@ -20,7 +24,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'AlexanderApostolov',
-        short_name: 'AlexenaderApostolov',
+        short_name: 'AlexanderApostolov',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

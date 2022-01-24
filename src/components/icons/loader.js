@@ -2,11 +2,11 @@ import React from 'react';
 
 const IconLoader = () => (
   <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <title>Loader Logo</title>
-  <g>
-    <g id="A" transform="translate(0.000000, 0.000000)">
-      <path
-        d="M 57.46,68.08
+    <title>Loader Logo</title>
+    <g>
+      <g id="A" transform="translate(0.000000, 0.000000)">
+        <path
+          d="M 57.46,68.08
          C 57.46,68.08 53.37,56.68 53.37,56.68
            53.37,56.68 37.67,56.68 37.67,56.68
            37.67,56.68 33.64,68.08 33.64,68.08
@@ -21,25 +21,25 @@ const IconLoader = () => (
            45.06,34.94 44.32,37.46 43.35,40.19
            43.35,40.19 39.64,50.90 39.64,50.90
            39.64,50.90 51.59,50.90 51.59,50.90 Z"
-        fill="currentColor"
-      />
-    </g>
-    <path
-      stroke="currentColor"
-      strokeWidth="5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      fill="none"
-      d="M 45.76,2.57
+          fill="currentColor"
+        />
+      </g>
+      <path
+        stroke="currentColor"
+        strokeWidth="5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        fill="none"
+        d="M 45.76,2.57
          C 45.76,2.57 88.26,26.32 88.26,26.32
            88.26,26.32 88.26,73.82 88.26,73.82
            88.26,73.82 45.76,97.57 45.76,97.57
            45.76,97.57 3.26,73.82 3.26,73.82
            3.26,73.82 3.26,26.32 3.26,26.32
            3.26,26.32 45.76,2.57 45.76,2.57 Z"
-    />
-  </g>
-</svg>
+      />
+    </g>
+  </svg>
 );
 
 export default IconLoader;
